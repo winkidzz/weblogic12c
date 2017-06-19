@@ -114,6 +114,6 @@ Vagrant.configure("2") do |config|
   if Vagrant.has_plugin?("vagrant-proxyconf")
     config.proxy.http     = "http://10.0.2.2:3128"
     config.proxy.https    = "http://10.0.2.2:3128"
-    config.proxy.no_proxy = "localhost,127.0.0.*,10.*,192.168.*,172.*,*.paychex.com,*.pxlabus.com"
+    config.proxy.no_proxy = "localhost,127.0.0.*,10.*,192.168.*,172.*,*.pxlabus.com"
   end
 end
